@@ -1,0 +1,18 @@
+[package]
+name = "image-capture-core"
+version = "0.1.0"
+description = "Bindings to ImageCaptureCore for macOS"
+authors = ["Brandon Hamilton <brandon.hamilton@gmail.com>"]
+homepage = "https://github.com/brandonhamilton/image-capture-core-rs"
+repository = "https://github.com/brandonhamilton/image-capture-core-rs"
+license = "MIT"
+readme = "README.md"
+keywords = ["cocoa", "ImageCapture", "scanner", "camera"]
+
+[dependencies]
+bitflags = "1.0.4"
+cocoa = "0.18.0"
+core-foundation = "0.6"
+core-graphics = "0.17"
+libc = "0.2.43"
+objc = "0.2"
