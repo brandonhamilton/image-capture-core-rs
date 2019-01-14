@@ -1,6 +1,6 @@
 use cocoa::base::{id, BOOL};
 use cocoa::foundation::{NSRect, NSSize, NSUInteger};
-use constants::ICEXIFOrientationType;
+use crate::constants::ICEXIFOrientationType;
 use core_graphics::base::CGFloat;
 use core_graphics::image::CGImageRef;
 use libc::c_uchar;

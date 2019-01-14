@@ -1,5 +1,5 @@
 use cocoa::base::{id, BOOL};
-use constants::ICEXIFOrientationType;
+use crate::constants::ICEXIFOrientationType;
 use core_graphics::image::CGImageRef;
 use libc::c_uint;
 use libc::{c_double, off_t};
