@@ -1,5 +1,6 @@
 use cocoa::base::{id, BOOL};
 use cocoa::foundation::NSUInteger;
+use objc::*;
 
 pub trait ICDeviceBrowser: Sized {
     unsafe fn alloc(_: Self) -> id {

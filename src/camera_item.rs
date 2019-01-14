@@ -3,6 +3,7 @@ use crate::constants::ICEXIFOrientationType;
 use core_graphics::image::CGImageRef;
 use libc::c_uint;
 use libc::{c_double, off_t};
+use objc::*;
 
 /// ICCameraItem is an abstract class that represents an item in an ICCameraDevice object
 pub trait ICCameraItem: Sized {

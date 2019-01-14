@@ -1,5 +1,6 @@
 use cocoa::base::{id, BOOL};
 use cocoa::foundation::NSUInteger;
+use objc::*;
 use crate::scanner_functional_units::ICScannerPixelDataType;
 
 /// ICScannerBandData

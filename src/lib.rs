@@ -1,5 +1,4 @@
 #![allow(non_snake_case)]
-#[macro_use]
 extern crate bitflags;
 #[cfg(target_os = "macos")]
 extern crate cocoa;
@@ -7,7 +6,6 @@ extern crate cocoa;
 extern crate core_foundation;
 #[cfg(target_os = "macos")]
 extern crate core_graphics;
-#[macro_use]
 extern crate objc;
 extern crate libc;
 

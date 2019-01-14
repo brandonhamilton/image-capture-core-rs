@@ -1,6 +1,7 @@
 use cocoa::base::{id, BOOL};
 use cocoa::foundation::{NSTimeInterval, NSUInteger};
 use libc::off_t;
+use objc::*;
 
 pub trait ICCameraDevice: Sized {
     /// Indicates if the device has reported battery charge level￼.

@@ -1,7 +1,9 @@
+use bitflags::bitflags;
 use cocoa::base::{id, BOOL};
 use cocoa::foundation::NSUInteger;
 use core_graphics::image::CGImageRef;
 use libc::{c_int, c_longlong};
+use objc::*;
 
 /// Image Capture Device Types
 bitflags! {

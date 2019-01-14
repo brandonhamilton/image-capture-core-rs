@@ -1,4 +1,6 @@
 use cocoa::base::id;
+use objc::*;
+
 /// Transfer mode to be used when transferring scan data from the scanner functional unit.
 #[repr(u64)]
 #[derive(Clone, Copy, Debug, PartialEq)]

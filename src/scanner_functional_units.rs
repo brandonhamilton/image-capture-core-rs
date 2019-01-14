@@ -4,6 +4,7 @@ use crate::constants::ICEXIFOrientationType;
 use core_graphics::base::CGFloat;
 use core_graphics::image::CGImageRef;
 use libc::c_uchar;
+use objc::*;
 
 /// Scanner Functional Unit Types
 #[repr(u64)]
