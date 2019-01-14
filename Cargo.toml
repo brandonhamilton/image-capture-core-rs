@@ -1,6 +1,6 @@
 [package]
 name = "image-capture-core"
-version = "0.1.3"
+version = "0.1.4"
 description = "Bindings to ImageCaptureCore framework on macOS"
 authors = ["Brandon Hamilton <brandon.hamilton@gmail.com>"]
 homepage = "https://github.com/brandonhamilton/image-capture-core-rs"
