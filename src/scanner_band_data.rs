@@ -1,6 +1,6 @@
 use cocoa::base::{id, BOOL};
 use cocoa::foundation::NSUInteger;
-use scanner_functional_units::ICScannerPixelDataType;
+use crate::scanner_functional_units::ICScannerPixelDataType;
 
 /// ICScannerBandData
 pub trait ICScannerBandData: Sized {
